@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DATA INPUT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <div class="side-nav">
+      <button id="calculator">CALCULATOR</button>
+      <button class="active" id="dataInput">DATA INPUT</button>
+      <button id="todoList">TO DO LIST</button>
+    </div>
+    <div class="header">
+      <h1>DATA INPUT</h1>
+    </div>
+    <div class="container">
+      <div class="input-container">
+        <h2>Account Registration</h2>
+        <label for="name">NAME:</label>
+        <input type="text" id="name" placeholder="Enter Name" />
+
+        <label for="age">AGE:</label>
+        <input type="number" id="age" placeholder="Enter age" />
+
+        <label for="birthdate">BIRTHDATE:</label>
+        <input type="date" id="birthdate" placeholder="Enter Birthdate" />
+
+        <label for="email">EMAIL:</label>
+        <input type="email" id="email" placeholder="Enter Email" />
+
+        <button id="submit">SUBMIT</button>
+      </div>
+      <div class="input-container">
+        <h2>User Information</h2>
+        <div class="data-plate" id="userId">USER ID:</div>
+        <div class="data-plate" id="userName">NAME:</div>
+        <div class="data-plate" id="userAge">AGE:</div>
+        <div class="data-plate" id="userBirthdate">BIRTHDATE:</div>
+        <div class="data-plate" id="userEmail">EMAIL:</div>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <script src="html.js"></script>
+    <script src="input.js"></script>
+  </body>
+</html>

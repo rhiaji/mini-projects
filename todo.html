@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DATA INPUT</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="input.css" />
+  </head>
+  <body>
+    <div class="side-nav">
+      <button id="calculator">CALCULATOR</button>
+      <button class="active" id="dataInput">DATA INPUT</button>
+      <button id="todoList">TO DO LIST</button>
+    </div>
+    <div class="header">
+      <h1>TO DO LIST</h1>
+    </div>
+    <div class="container">
+      <div class="input-container">
+        <h2>WHAT TO DO?</h2>
+        <label for="todo">TO DO:</label>
+        <input type="text" id="todo" placeholder="Enter To do" />
+
+        <label for="date">Date to finish:</label>
+        <input type="date" id="date" placeholder="Enter age" />
+
+        <button id="submit">SUBMIT</button>
+      </div>
+      <div class="input-container">
+        <h2>User Information</h2>
+        <div class="todoContainer" id="todoContainer"></div>
+      </div>
+    </div>
+    <div class="footer"></div>
+    <script src="html.js"></script>
+    <script src="todo.js"></script>
+  </body>
+</html>
