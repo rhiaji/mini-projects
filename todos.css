@@ -1,0 +1,66 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 500px;
+  height: 500px;
+  margin: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0.15) 0%, rgba(0, 0, 0, 0.15) 100%),
+    radial-gradient(at top center, rgba(255, 255, 255, 0.4) 0%, rgba(0, 0, 0, 0.4) 120%) #989898;
+  background-blend-mode: multiply, multiply;
+}
+
+.input-container input,
+label,
+button {
+  height: 25px;
+  width: 200px;
+  margin-top: 15px;
+  border-radius: 10px;
+}
+
+.data-plate {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: 50px;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin: 15px;
+  background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+.todoContainer {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: scroll;
+}
+
+.todoPlate {
+  display: flex;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px;
+  width: 400px;
+  background-color: #485563;
+}
+
+.todoPlate input {
+  width: 50px;
+  margin-right: auto;
+}
+
+.todoPlate button {
+  margin-left: auto;
+  width: 70px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}

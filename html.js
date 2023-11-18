@@ -7,7 +7,7 @@ function nextpage(event) {
   const buttonText = button.textContent
 
   if (buttonText === "CALCULATOR") {
-    location.href = "calculator.html"
+    location.href = "index.html"
   } else if (buttonText === "DATA INPUT") {
     location.href = "input.html"
   } else if (buttonText === "TO DO LIST") {
